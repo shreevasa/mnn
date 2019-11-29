@@ -1,0 +1,25 @@
+name: mnn
+type: theme
+description: 'by Shreevasa'
+package: Other
+core: 8.x
+libraries:
+  - mnn/global-styling
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  branding: Branding
+  main_navigation: Main navigation
+  nav_right: Navigation right
+  content: Content
+  featured_right: Featured right
+  left_side_bar: Left side bar
+  right_side_bar: Right side bar
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer third
+  footer_fourth: Footer fourth
+  footer_bottom: Footer bottom
+

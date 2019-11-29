@@ -1,0 +1,173 @@
+/**
+ * Theme typography.
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+a {
+  display: inline-block;
+  -webkit-transition: color var(--transition-time) ease-in-out;
+  transition: color var(--transition-time) ease-in-out;
+  vertical-align: middle;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-primary);
+}
+
+p {
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
+h1,
+.page-title {
+  margin-bottom: 25px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.5;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.25;
+  background-color: #3492c7;
+  color: white;
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.25;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.15;
+  
+}
+
+h5 {
+  margin-bottom: 5px;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.15;
+}
+
+h6 {
+  margin: 0;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h6);
+  font-weight: var(--font-weight--bold);
+  line-height: 1.15;
+}
+
+ul {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  list-style: disc;
+}
+
+ul > li ul,
+ol > li ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  list-style: circle;
+}
+
+ul li,
+ol li {
+  margin-bottom: 5px;
+}
+
+ol {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  list-style: decimal;
+}
+
+ol > li ol {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+strong {
+  font-weight: var(--font-weight--bold);
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  padding: 20px;
+  color: var(--color-tertiary);
+  border-left: 1px solid var(--color-primary);
+  font-size: var(--font-size-lead);
+  line-height: 1.75;
+}
+
+u,
+ins {
+  text-decoration: underline;
+}
+
+s,
+strike,
+del {
+  text-decoration: line-through;
+}
+
+big {
+  font-size: var(--font-size-lead);
+}
+
+small {
+  font-size: var(--font-size-small);
+}
+
+sub {
+  vertical-align: sub;
+  font-size: var(--font-size-small);
+}
+
+sup {
+  vertical-align: super;
+  font-size: var(--font-size-small);
+}
+
+dl {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+dl dd {
+  margin-left: 20px;
+}
+
+.field__label {
+  font-family: var(--font-family-primary);
+}

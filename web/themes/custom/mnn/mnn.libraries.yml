@@ -1,0 +1,14 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/layout/footer.css : {}
+      css/layout/header.css : {}
+      css/base/variables.css : {}
+      css/components/branding.css : {}
+      css/base/reset.css : {}
+      css/layout/content.css : {}
+      css/base/typography.css : {}
+  js:
+
+  

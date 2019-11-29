@@ -1,0 +1,4 @@
+name: themetest
+recipe: drupal8
+config:
+  webroot: web

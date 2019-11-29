@@ -1,0 +1,99 @@
+{#
+/**
+ * @file
+ * Void's theme implementation to display a single page.
+ */
+#}
+
+{#,
+  page.left_sidebar and page.right_sidebar ? 'main__container--with-both-sidebar',
+  page.left_sidebar and page.right_sidebar is empty ? 'main__container--with-left-sidebar',
+  page.right_sidebar and page.left_sidebar is empty ? 'main__container--with-right-sidebar',
+  page.left_sidebar is empty and page.right_sidebar is empty ? 'main__container--without-sidebar'
+] %}} #}
+ {% set content_classes = [
+  'main__container']%}
+
+<div id="page">
+  <header class="header" id="header" role="banner"
+          aria-label="{{ 'Site header'|t }}">
+    <div class="header__branding">
+      <div class="branding">
+        <div class="branding__logo">
+          {{ page.branding }}
+        </div>
+        <div class="branding__navigation">
+          {{ page.main_navigation }}
+        </div>
+        <div class="nav__right">
+        {{page.nav_right}}
+        </div>
+      </div>
+    </div>
+  </header>
+  {# {% if page.featured_right %}
+    <section class="featured" id="featured" role="complementary">
+      {{ page.featured_right }}
+    </section>
+  {% endif %} #}
+  {# {% if page.highlighted_first or page.highlighted_second or page.highlighted_first %}
+    <section class="highlighted highlighted--top" id="highlighted" role="complementary">
+      <div class="highlighted__container">
+        {{ page.highlighted_first }}
+        {{ page.highlighted_second }}
+        {{ page.highlighted_third }}
+      </div>
+    </section>
+  {% endif %} #}
+  <section class="main" id="main">
+    <div {{ content_attributes.addClass(content_classes) }}>
+     <main class="main__content" id="content" role="main">
+        <section class="main__content__section">
+          <a id="main-content" tabindex="-1"></a>
+          {{ page.content }}
+        </section>
+      {% if page.featured_right %}
+    <section class="featured" id="featured" role="complementary">
+      {{ page.featured_right }}
+    </section>
+  {% endif %}
+  </main>
+  </div>
+      {% if page.left_side_bar or page.right_side_bar %}
+    <section class="main__sidebar" id="main_sidebar" role="complementary">
+      {% if page.left_side_bar %}
+      <aside class="main__sidebar-first" id="sidebar-first" role="complementary">
+        {{ page.left_side_bar }}
+      </aside>
+      {% endif %}
+      {% if page.right_side_bar %}
+      <aside class="main__sidebar-second" id="sidebar-second" role="complementary">
+        {{ page.right_side_bar }}
+      </aside>
+      {% endif %}
+    </section>
+    {% endif %}
+  </section>
+  <footer class="footer" id="footer">
+    {# {% if page.footer_top %}
+      <div class="footer__top">
+        {{ page.footer_top }}
+      </div>
+    {% endif %} #}
+    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+      <div class="footer__main">
+        <div class="footer__main__container">
+          {{ page.footer_first }}
+          {{ page.footer_second }}
+          {{ page.footer_third }}
+          {{ page.footer_fourth }}
+        </div>
+      </div>
+    {% endif %}
+    {% if page.footer_bottom %}
+      <div class="footer__bottom">
+        {{ page.footer_bottom }}
+      </div>
+    {% endif %}
+  </footer>
+</div>

@@ -1,0 +1,39 @@
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.main__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  .main__content,.main__sidebar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 0 1 100%;
+    align-self: auto;
+
+  }
+  .main__content__section, .main__sidebar-first {
+    flex: 0 1 75%;
+    align-self: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 15px;
+
+  }
+  .featured, .main__sidebar-second {
+    flex: 0 1 25%;
+    align-self: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 0px;
+
+  }

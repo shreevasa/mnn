@@ -9,6 +9,13 @@ global-styling:
       css/base/reset.css : {}
       css/layout/content.css : {}
       css/base/typography.css : {}
+      css/layout/featured.css : {}
+      css/layout/photo.css : {}
+      css/layout/news.css : {}
+
   js:
+    js/main.js : {}
+  dependencies:
+    - core/jquery 
 
   

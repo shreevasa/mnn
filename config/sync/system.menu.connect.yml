@@ -1,0 +1,8 @@
+uuid: ddc0ec5b-9517-49c8-a302-7744324739b1
+langcode: en
+status: true
+dependencies: {  }
+id: connect
+label: CONNECT
+description: 'connect mnn'
+locked: false

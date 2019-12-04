@@ -1,0 +1,25 @@
+uuid: 7bc215db-0662-47fc-9440-d40f115299ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.quick-links
+  module:
+    - system
+  theme:
+    - mnn
+id: quicklinks
+theme: mnn
+region: footer_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:quick-links'
+settings:
+  id: 'system_menu_block:quick-links'
+  label: 'QUICK LINKS'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

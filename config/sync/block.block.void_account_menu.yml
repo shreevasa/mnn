@@ -1,0 +1,27 @@
+uuid: 146d3eab-1737-4225-8680-073de4bebccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - void
+_core:
+  default_config_hash: zy4qDH-SONBvGXmqsjttcjLzKeKRzYvkv9VC6NxwrDQ
+id: void_account_menu
+theme: void
+region: header_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

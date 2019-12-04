@@ -56,7 +56,7 @@ parameters:
     # Not recommended in production environments
     # @default false
     debug: true
-    # Twig auto-reload:
+    Twig auto-reload: true
     #
     # Automatically recompile Twig templates whenever the source code changes.
     # If you don't provide a value for auto_reload, it will be determined

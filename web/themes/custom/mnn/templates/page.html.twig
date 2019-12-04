@@ -31,6 +31,11 @@
       </div>
     </div>
   </header>
+  {% if page.featured %}
+    <section class="featured" id="featured" role="complementary">
+      {{ page.featured }}
+    </section>
+  {% endif %}
   {# {% if page.featured_right %}
     <section class="featured" id="featured" role="complementary">
       {{ page.featured_right }}
@@ -59,20 +64,6 @@
   {% endif %}
   </main>
   </div>
-      {% if page.left_side_bar or page.right_side_bar %}
-    <section class="main__sidebar" id="main_sidebar" role="complementary">
-      {% if page.left_side_bar %}
-      <aside class="main__sidebar-first" id="sidebar-first" role="complementary">
-        {{ page.left_side_bar }}
-      </aside>
-      {% endif %}
-      {% if page.right_side_bar %}
-      <aside class="main__sidebar-second" id="sidebar-second" role="complementary">
-        {{ page.right_side_bar }}
-      </aside>
-      {% endif %}
-    </section>
-    {% endif %}
   </section>
   <footer class="footer" id="footer">
     {# {% if page.footer_top %}

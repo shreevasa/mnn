@@ -1,0 +1,34 @@
+.mnn__news{
+    background: url("../../images/nari.png");
+    height: 170px;
+    width: 320px;
+}
+ 
+.mnn__news h4{
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 66px;
+    font-family: arimo;
+}
+.mnn__email input[type=email]{
+    width: 245px;
+    height: 28px;
+    margin-left: 10px;
+
+}
+.mnn__email button{
+    width: 44px;
+    height: 35px;
+    border: 1px solid rgb(43, 145, 207);
+    color: white;
+    background-color: rgb(43, 145, 207);
+    border-radius: 10%;
+    margin-top: 2px;
+}
+.mnn__news a{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-decoration: underline;
+}

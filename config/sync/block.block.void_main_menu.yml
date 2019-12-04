@@ -1,0 +1,27 @@
+uuid: cc786c03-e00e-4457-88f6-5519755a97d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - void
+_core:
+  default_config_hash: x2OFy29Qczm3x94k1iNIzQWOy-QQWQ4VoA-2Pg_SPYk
+id: void_main_menu
+theme: void
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -2,6 +2,8 @@
 .main{
     max-width: 1200px;
     margin: auto;
+    counter-reset: my-sec-counter;
+
 }
 .main__container {
     display: flex;
@@ -24,8 +26,10 @@
     align-self: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -36px;
     padding-left: 0px;
     padding-right: 15px;
+    padding-top: 21px;
 
   }
   .featured, .main__sidebar-second {
@@ -35,5 +39,68 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 0px;
-
   }
+
+  .left__side__content{
+    display: flex;
+    margin-bottom: 35px;
+  }
+  .left__side__wrapper{
+      padding-left: 15px;
+  }
+  .left__side__wrapper h6 a{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  .left__side__wrapper h6 a:hover{
+      text-decoration: underline;
+  }
+  .left__side__wrapper h6 p{
+      color: #333333;
+  }
+  .left__side__wrapper h6{
+      color:#4f4f4f;
+  }
+  .right__side__content{
+      display: flex;
+      margin-top: 39px;
+  }
+  .right__side__content h6 a{
+      color: black;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: sans-serif;
+  }
+  .right__side__content h6 a:hover{
+      color: #2b7ba7;
+  }
+  .right__side__image img{
+      width: 120px;
+      height: 90px;
+  }
+  .right__side__image::before{
+    
+    counter-increment: my-sec-counter;
+    content:counter(my-sec-counter);
+    position: absolute;
+    top: 0;
+    background: #fff;
+    color: #249165;
+    padding: 0 5px 3px 2px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 2px 0 1px 0 #CAE1D7;
+  }
+  .left__side__image img{
+    width: 235px;
+    height: 120px;
+}
+.right__side__text{
+  padding-left: 20px;
+}
+.right__text{
+    position: relative;
+}

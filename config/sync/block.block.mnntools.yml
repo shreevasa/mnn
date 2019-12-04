@@ -1,0 +1,25 @@
+uuid: b5e6ed64-4eaa-4231-9f78-616d8b119373
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mnn-tools
+  module:
+    - system
+  theme:
+    - mnn
+id: mnntools
+theme: mnn
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:mnn-tools'
+settings:
+  id: 'system_menu_block:mnn-tools'
+  label: 'MNN TOOLS'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

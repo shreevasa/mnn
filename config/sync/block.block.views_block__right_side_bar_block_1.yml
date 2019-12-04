@@ -1,0 +1,24 @@
+uuid: 0c1f9c90-09b8-4ada-ad93-2e9b1e2c227a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.right_side_bar
+  module:
+    - views
+  theme:
+    - mnn
+id: views_block__right_side_bar_block_1
+theme: mnn
+region: featured_right
+weight: -6
+provider: null
+plugin: 'views_block:right_side_bar-block_1'
+settings:
+  id: 'views_block:right_side_bar-block_1'
+  label: 'TRENDING ON MNN'
+  provider: views
+  label_display: visible
+  views_label: 'TRENDING ON MNN'
+  items_per_page: none
+visibility: {  }

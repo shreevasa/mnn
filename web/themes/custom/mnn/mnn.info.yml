@@ -13,6 +13,7 @@ regions:
   branding: Branding
   main_navigation: Main navigation
   nav_right: Navigation right
+  featured: Featured
   content: Content
   featured_right: Featured right
   left_side_bar: Left side bar

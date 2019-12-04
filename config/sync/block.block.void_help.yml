@@ -1,0 +1,22 @@
+uuid: 909f8b0e-d9ef-482f-af2a-90932c1220df
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - void
+_core:
+  default_config_hash: ibSFwStMUK8FeM9HLnzsDpanGsn_yy7hRtUwfkjq6Tk
+id: void_help
+theme: void
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

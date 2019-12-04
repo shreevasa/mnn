@@ -21,9 +21,10 @@
 }
 
 .footer__bottom {
+  margin-top: 20px;
   padding: 50px 0 10px 0;
   color: var(--color-very-light-pink);
-  background: var(--color-secondary);
+  background: #2b7ba7;
 }
 
 .footer__bottom a {
@@ -101,4 +102,15 @@
 }
 .footer h4{
   color: white;
+}
+.footer .footer__bottom li{
+  float: left;
+  margin-top: -25px;
+}
+.footer__bottom a{
+  margin-left: 85px;
+}
+.footer .footer__bottom ul{
+  padding-bottom: 20px;
+  background-color: #2b7ba7;
 }

@@ -1,0 +1,25 @@
+uuid: ff193d88-9d2a-48ae-9460-5586a17aaaf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.channels
+  module:
+    - system
+  theme:
+    - mnn
+id: channels
+theme: mnn
+region: footer_fourth
+weight: -5
+provider: null
+plugin: 'system_menu_block:channels'
+settings:
+  id: 'system_menu_block:channels'
+  label: CHANNELS
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: d10ee6ab-e679-461f-bd21-98f9311188e7
+langcode: en
+status: true
+dependencies: {  }
+id: channels
+label: CHANNELS
+description: 'channels of mnn'
+locked: false

@@ -1,0 +1,19 @@
+uuid: ed6a4a75-7f0a-46c2-8214-a500d8b2c767
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descriptions
+    - node.type.gallery
+id: node.gallery.field_descriptions
+field_name: field_descriptions
+entity_type: node
+bundle: gallery
+label: Descriptions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

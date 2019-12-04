@@ -100,7 +100,30 @@
   float: left;
   height: 47px;
   transition: 0.3s ease-out;
+  position: relative;
 
+}
+.branding .branding__navigation ul ul{
+  position: absolute;
+  background-color: #fff;
+  width: 200px;
+  display: none;
+
+}
+.branding .branding__navigation ul ul li{
+  list-style: none;
+  float:none;
+}
+.branding .branding__navigation ul ul li a{
+  color: #2ba6cb;
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #efefef;
+}
+.branding .branding__navigation ul ul li a:hover{
+  background-color:#2ba6cb ;
+  color: #fff;
+  text-decoration: none;
 }
 .branding .branding__navigation li:hover{
   height: 47px;
@@ -146,8 +169,8 @@
 }
 .nav__right{
   padding-left: 15px;
-  padding-top: 38px;
-  margin-right: -80px;
+  padding-top: 30px;
+  margin-right: -75px;
 }
 .nav__right li{
   float: left;

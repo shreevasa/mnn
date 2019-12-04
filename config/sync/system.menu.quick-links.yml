@@ -1,0 +1,8 @@
+uuid: f9389ff5-8dda-4378-9455-753024373bed
+langcode: en
+status: true
+dependencies: {  }
+id: quick-links
+label: 'QUICK LINKS'
+description: 'QUICK LINKS OF MNN'
+locked: false

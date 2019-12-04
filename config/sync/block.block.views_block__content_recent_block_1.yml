@@ -1,0 +1,22 @@
+uuid: 1e5bbe90-e0b1-4e1f-a38a-b8f6d0e33b8c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - void
+_core:
+  default_config_hash: 2qA05F0RhYkai-Yq6icgD8K5ODValGZAvHPZP-5oyAE
+id: views_block__content_recent_block_1
+theme: void
+region: right_sidebar
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block'
+settings:
+  id: 'views_block:content_recent-block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

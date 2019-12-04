@@ -1,0 +1,25 @@
+uuid: 129d0588-97d6-491b-aea7-1c788c1dc812
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mother-nature-network
+  module:
+    - system
+  theme:
+    - mnn
+id: mothernaturenetwork
+theme: mnn
+region: nav_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:mother-nature-network'
+settings:
+  id: 'system_menu_block:mother-nature-network'
+  label: 'MOTHER NATURE NETWORK'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

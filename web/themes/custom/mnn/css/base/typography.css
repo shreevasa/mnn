@@ -19,7 +19,7 @@ a:focus {
 }
 
 p {
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
   line-height: 1.5;
 }
 
@@ -38,8 +38,9 @@ h2 {
   font-size: var(--font-size-h2);
   font-weight: var(--font-weight--bold);
   line-height: 1.25;
-  background-color: #3492c7;
+  background-color: #309165;
   color: white;
+  font-size: 168%;
 }
 
 h3 {
@@ -56,7 +57,7 @@ h4 {
   font-size: var(--font-size-h4);
   font-weight: var(--font-weight--bold);
   line-height: 1.15;
-  
+
 }
 
 h5 {
@@ -71,7 +72,7 @@ h6 {
   margin: 0;
   font-family: var(--font-family-primary);
   font-size: var(--font-size-h6);
-  font-weight: var(--font-weight--bold);
+  /* font-weight: var(--font-weight--bold); */
   line-height: 1.15;
 }
 

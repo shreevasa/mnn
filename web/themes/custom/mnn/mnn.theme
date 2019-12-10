@@ -139,3 +139,9 @@ function mnn_theme_suggestions_views_view_alter(array &$suggestions, array $vari
     $suggestions[] = 'views_view__' . $variables['view']->element['#view_id'] . '__' . $variables['view']->current_display;
   }
 }
+function mnn_theme_suggestions_webform_alter(array &$suggestions, array $variables) {
+  if (isset($variables['webform']->element['#webform_id'])) {
+    $suggestions[] = 'webform__' . $variables['webform']->element['#webform_id'];
+    $suggestions[] = 'webform__' . $variables['webform']->element['#webform_id'] . '__' . $variables['webform']->current_display;
+  }
+}

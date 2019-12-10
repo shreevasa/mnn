@@ -1,0 +1,24 @@
+name: Mnn theme
+type: theme
+description: 'My Awesome theme'
+package: Other
+core: 8.x
+libraries:
+  - mnn_theme/global-styling
+  - mnn_theme/mnn
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  branding_logo: Branding logo
+  branding_navigation: Branding navigation
+  branding_right_navigation: Branding right navigation
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_bottom_1: Footer bottom 1
+  footer_bottom_2: Footer bottom 2
+  footer_bottom_3: Footer bottom 3
+  footer_bottom_4: Footer bottom 4
+  footer_bottom: Footer bottom

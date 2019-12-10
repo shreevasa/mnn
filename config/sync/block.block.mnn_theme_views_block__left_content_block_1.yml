@@ -1,0 +1,24 @@
+uuid: ea9e14b7-f5e9-460f-9eda-fa1e909f3fed
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.left_content
+  module:
+    - views
+  theme:
+    - mnn_theme
+id: mnn_theme_views_block__left_content_block_1
+theme: mnn_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:left_content-block_1'
+settings:
+  id: 'views_block:left_content-block_1'
+  label: 'Read the latest'
+  provider: views
+  label_display: visible
+  views_label: 'Read the latest'
+  items_per_page: none
+visibility: {  }

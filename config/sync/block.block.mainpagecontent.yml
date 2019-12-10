@@ -1,0 +1,20 @@
+uuid: 35e06134-ee2b-4a98-8c20-64dfc0f6a692
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mnn_theme
+id: mainpagecontent
+theme: mnn_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: visible
+visibility: {  }

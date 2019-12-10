@@ -11,7 +11,7 @@ dependencies:
 id: views_block__right_side_bar_block_1
 theme: mnn
 region: featured_right
-weight: -6
+weight: -7
 provider: null
 plugin: 'views_block:right_side_bar-block_1'
 settings:

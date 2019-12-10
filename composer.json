@@ -32,6 +32,7 @@
         "drupal/svg_image": "^1.9",
         "drupal/views_infinite_scroll": "^1.6",
         "drupal/void": "^1.0",
+        "drupal/webform": "^5.6",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

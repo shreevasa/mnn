@@ -1,0 +1,25 @@
+uuid: d96e3b57-9b2a-43f9-90b9-a6cd98821abd
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter
+  module:
+    - webform
+  theme:
+    - mnn
+id: webform
+theme: mnn
+region: featured_right
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: newsletter
+  default_data: ''
+  redirect: false
+visibility: {  }

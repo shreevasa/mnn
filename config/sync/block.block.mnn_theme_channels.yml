@@ -1,0 +1,25 @@
+uuid: 89980724-647c-4931-8d76-a15bcd991c5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.channels
+  module:
+    - system
+  theme:
+    - mnn_theme
+id: mnn_theme_channels
+theme: mnn_theme
+region: branding_logo
+weight: -5
+provider: null
+plugin: 'system_menu_block:channels'
+settings:
+  id: 'system_menu_block:channels'
+  label: CHANNELS
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

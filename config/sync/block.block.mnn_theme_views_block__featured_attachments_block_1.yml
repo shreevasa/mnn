@@ -1,0 +1,24 @@
+uuid: 385ed87f-8343-47b5-8c37-98f58e609119
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_attachments
+  module:
+    - views
+  theme:
+    - mnn_theme
+id: mnn_theme_views_block__featured_attachments_block_1
+theme: mnn_theme
+region: featured
+weight: -6
+provider: null
+plugin: 'views_block:featured_attachments-block_1'
+settings:
+  id: 'views_block:featured_attachments-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

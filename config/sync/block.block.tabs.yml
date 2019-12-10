@@ -1,0 +1,20 @@
+uuid: ceb80e4c-e8ef-4d6a-a1b1-0ab52129e1d0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mnn_theme
+id: tabs
+theme: mnn_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

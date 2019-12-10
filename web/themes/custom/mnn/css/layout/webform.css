@@ -1,0 +1,45 @@
+.webfrom__wrapper{
+    width: 320px;
+    height: 170px;
+    background: url("../../images/nari.png");
+    position: relative;
+}
+.webform__email label{
+    display: none;
+}
+.webform__email input[type=email]{
+    width: 245px;
+    height: 28px;
+    margin-left: 10px;
+}
+.webform__actions input[type=submit]{
+    width: 44px;
+    height: 35px;
+    border: 1px solid rgb(43, 145, 207);
+    color: white;
+    background-color: rgb(43, 145, 207);
+    border-radius: 10%;
+    margin-top: 2px;
+    position: absolute;
+    top: 101px;
+    left: 262px;
+}
+.webform__know__more label{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-decoration: underline;
+    position: absolute;
+    top: 138px;
+    cursor: pointer;
+    
+}
+.webform__join__news {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 66px;
+    font-family: arimo;
+    margin-top: 10px;
+
+}

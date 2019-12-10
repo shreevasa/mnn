@@ -1,0 +1,20 @@
+@import "../base/_variable";
+.main_header{
+    display: flex;
+    background-color: $--color-background;
+}
+.branding_logo{
+    // width: 20%;
+    flex : 1 0 8%;
+    margin-right: 2%;
+}
+.branding_navigation{
+    // width: 50%;
+    flex: 1 0 68%;
+    margin-right: 2%;
+
+}
+.branding_right_navigation{
+    // width: 30%;
+    flex: 1 0 20%;
+}

@@ -12,6 +12,8 @@ global-styling:
       css/layout/featured.css : {}
       css/layout/photo.css : {}
       css/layout/news.css : {}
+      css/layout/webform.css : {}
+
 
   js:
     js/main.js : {}

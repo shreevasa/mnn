@@ -1,0 +1,25 @@
+uuid: 9e8583b3-50dc-4e71-b455-fd270d0255f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mnn_theme
+id: mnn_theme_useraccountmenu
+theme: mnn_theme
+region: branding_logo
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

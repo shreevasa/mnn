@@ -1,0 +1,24 @@
+uuid: b4fe964c-c2a1-4fe2-aaed-d7d39ae39818
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.right_side_bar
+  module:
+    - views
+  theme:
+    - mnn_theme
+id: mnn_theme_views_block__right_side_bar_block_1
+theme: mnn_theme
+region: branding_logo
+weight: -7
+provider: null
+plugin: 'views_block:right_side_bar-block_1'
+settings:
+  id: 'views_block:right_side_bar-block_1'
+  label: 'TRENDING ON MNN'
+  provider: views
+  label_display: visible
+  views_label: 'TRENDING ON MNN'
+  items_per_page: none
+visibility: {  }

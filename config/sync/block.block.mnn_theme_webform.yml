@@ -1,0 +1,25 @@
+uuid: c345caa4-7f85-4d19-bc6b-10f6c3f7969c
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter
+  module:
+    - webform
+  theme:
+    - mnn_theme
+id: mnn_theme_webform
+theme: mnn_theme
+region: branding_logo
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: newsletter
+  default_data: ''
+  redirect: false
+visibility: {  }

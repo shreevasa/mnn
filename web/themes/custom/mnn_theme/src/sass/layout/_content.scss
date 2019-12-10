@@ -1,0 +1,12 @@
+.main_content{
+    max-width: 1010px;
+    margin: auto;
+    display: flex;
+}
+.main_left_content{
+    flex: 1 0 65%;
+    margin-right: 5%;
+}
+.right_sidebar{
+    flex: 1 0 30%;
+}

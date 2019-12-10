@@ -1,0 +1,25 @@
+uuid: ba67d26e-1309-4012-8ddd-53210b8d8f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.quick-links
+  module:
+    - system
+  theme:
+    - mnn_theme
+id: mnn_theme_quicklinks
+theme: mnn_theme
+region: branding_logo
+weight: -6
+provider: null
+plugin: 'system_menu_block:quick-links'
+settings:
+  id: 'system_menu_block:quick-links'
+  label: 'QUICK LINKS'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

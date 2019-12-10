@@ -1,0 +1,24 @@
+uuid: 2084c62c-bdfe-445f-a1bf-a32cc7217dc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.photo_gallery
+  module:
+    - views
+  theme:
+    - mnn_theme
+id: mnn_theme_views_block__photo_gallery_block_1
+theme: mnn_theme
+region: branding_logo
+weight: -6
+provider: null
+plugin: 'views_block:photo_gallery-block_1'
+settings:
+  id: 'views_block:photo_gallery-block_1'
+  label: 'Explore photo galleries »'
+  provider: views
+  label_display: visible
+  views_label: 'Explore photo galleries »'
+  items_per_page: none
+visibility: {  }

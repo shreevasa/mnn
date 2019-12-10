@@ -1,0 +1,25 @@
+uuid: 6319a9a1-ba89-4a04-8ddd-72653cd0d1ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.connect
+  module:
+    - system
+  theme:
+    - mnn_theme
+id: mnn_theme_connect
+theme: mnn_theme
+region: branding_logo
+weight: -5
+provider: null
+plugin: 'system_menu_block:connect'
+settings:
+  id: 'system_menu_block:connect'
+  label: CONNECT
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

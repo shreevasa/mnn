@@ -1,0 +1,51 @@
+body {
+  margin: auto; }
+
+.main_header {
+  display: flex;
+  background-color: #3089ba; }
+
+.branding_logo {
+  flex: 1 0 8%;
+  margin-right: 2%; }
+
+.branding_navigation {
+  flex: 1 0 68%;
+  margin-right: 2%; }
+
+.branding_right_navigation {
+  flex: 1 0 20%; }
+
+.main_content {
+  max-width: 1010px;
+  margin: auto;
+  display: flex; }
+
+.main_left_content {
+  flex: 1 0 65%;
+  margin-right: 5%; }
+
+.right_sidebar {
+  flex: 1 0 30%; }
+
+.footer {
+  background-color: #3089ba; }
+  .footer .footer_section {
+    display: flex;
+    max-width: 1010px;
+    margin: auto; }
+    .footer .footer_section .footer_bottom_1 {
+      flex: 1 0 22%;
+      margin-right: 3%; }
+    .footer .footer_section .footer_bottom_2 {
+      flex: 1 0 22%;
+      margin-right: 3%; }
+    .footer .footer_section .footer_bottom_3 {
+      flex: 1 0 22%;
+      margin-right: 3%; }
+    .footer .footer_section .footer_bottom_4 {
+      flex: 1 0 25%; }
+
+.featured {
+  max-width: 1010px;
+  margin: auto; }
